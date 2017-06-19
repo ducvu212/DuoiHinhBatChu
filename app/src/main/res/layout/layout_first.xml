@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dhbc">
+
+    <ImageView
+        android:id="@+id/acc"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:scaleType="center"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/avatar_icon" />
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/tim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="5" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="35dp"
+        android:text="1300"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:gravity="center"
+        android:text="PLAY"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
